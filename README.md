@@ -1,2 +1,2 @@
-# java
-Java Language for practice projects.
+# Java
+Java Language Repo for uploading practice projects.
