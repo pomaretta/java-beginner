@@ -1,0 +1,34 @@
+USE oneWord;
+
+CREATE TABLE user(
+    id INT NOT NULL AUTO_INCREMENT,
+    nickname VARCHAR(30),
+    password VARCHAR(30),
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE message(
+    messageid INT NOT NULL AUTO_INCREMENT,
+    content TEXT(1024),
+    userid  INT NOT NULL,
+    PRIMARY KEY(messageid),
+    FOREIGN KEY(userid) REFERENCES user(id)
+);
+
+CREATE TABLE room(
+    roomid VARCHAR(10) NOT NULL,
+    owner INT NOT NULL,
+    title VARCHAR(50),
+    PRIMARY KEY(roomid),
+    FOREIGN KEY (owner) REFERENCES user(id)
+);
+
+CREATE TABLE messageTransaction(
+    transactionID INT NOT NULL AUTO_INCREMENT,
+    roomID VARCHAR(10) NOT NULL,
+    messageID INT NOT NULL,
+    userID INT NOT NULL,
+    PRIMARY KEY(transactionID),
+    FOREIGN KEY(messageID) REFERENCES message(messageid),
+    FOREIGN KEY(userID) REFERENCES user(id)
+);
