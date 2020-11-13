@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5e13205-0c80-490f-b107-ad7a6d249f78" name="Default Changelist" comment="First java app released, from the Beginner series.">
+      <change afterPath="$PROJECT_DIR$/../student-management/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gie7YE7GtdftXsGdTu6lEkTKCK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$USER_HOME$/Desktop" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="es.pomaretta.Main" />
+      <module name="banking-management" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5e13205-0c80-490f-b107-ad7a6d249f78" name="Default Changelist" comment="" />
+      <created>1598601673821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598601673821</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First java app released, from the Beginner series.">
+      <created>1598865635558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598865635558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First java app released, from the Beginner series." />
+    <option name="LAST_COMMIT_MESSAGE" value="First java app released, from the Beginner series." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601931108626">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="466" y="295" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1601931108626" />
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1601931428344">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601931428344" />
+    <state width="2518" height="424" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.252.1440.900@0.0.2560.1440" timestamp="1598866259037" />
+    <state width="2518" height="520" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1598608955910" />
+    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1601931428341">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601931428341" />
+    <state width="2518" height="424" key="GridCell.Tab.0.center/0.0.2560.1440/2560.252.1440.900@0.0.2560.1440" timestamp="1598866259030" />
+    <state width="2518" height="520" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1598608955908" />
+    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1601931428340">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601931428340" />
+    <state width="2518" height="424" key="GridCell.Tab.0.left/0.0.2560.1440/2560.252.1440.900@0.0.2560.1440" timestamp="1598866258883" />
+    <state width="2518" height="520" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1598608955907" />
+    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1601931428342">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601931428342" />
+    <state width="2518" height="424" key="GridCell.Tab.0.right/0.0.2560.1440/2560.252.1440.900@0.0.2560.1440" timestamp="1598866259034" />
+    <state width="2518" height="520" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1598608955909" />
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom" timestamp="1598608955913">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1598608955913" />
+    <state width="2518" height="520" key="GridCell.Tab.1.center" timestamp="1598608955911">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1598608955911" />
+    <state width="2518" height="520" key="GridCell.Tab.1.left" timestamp="1598608955911">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1598608955911" />
+    <state width="2518" height="520" key="GridCell.Tab.1.right" timestamp="1598608955912">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1598608955912" />
+    <state x="880" y="460" key="Vcs.Push.Dialog.v2" timestamp="1598865853285">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="460" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.252.1440.900@0.0.2560.1440" timestamp="1598865853285" />
+    <state x="1093" y="641" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598865540201">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1093" y="641" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1440/2560.252.1440.900@0.0.2560.1440" timestamp="1598865540201" />
+    <state x="945" y="345" key="run.anything.popup" timestamp="1598608205612">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="345" key="run.anything.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1598608205612" />
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1598865589698">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440/2560.252.1440.900@0.0.2560.1440" timestamp="1598865589698" />
+  </component>
+</project>
