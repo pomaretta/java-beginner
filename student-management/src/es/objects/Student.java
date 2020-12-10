@@ -24,12 +24,12 @@ public class Student {
 
     // Student academic related data
 
-    private Department department;
+    private departments department;
     private boolean admitted;
 
     // Overloading constructor
 
-    public Student(String firstName, String lastName, String studentMail, String department ,boolean admitted){
+    public Student(String firstName, String lastName, String studentMail, departments department ,boolean admitted){
 
         this.firstName = firstName;
         this.lastName = lastName;
@@ -37,9 +37,11 @@ public class Student {
         this.admitted = admitted;
         setDepartment(department);
 
+        this.createNewStudent();
+
     }
 
-    public Student(String firstName, String lastName, String department ,boolean admitted){
+    public Student(String firstName, String lastName, departments department ,boolean admitted){
 
         this.firstName = firstName;
         this.lastName = lastName;
@@ -47,9 +49,11 @@ public class Student {
         this.admitted = admitted;
         setDepartment(department);
 
+        this.createNewStudent();
+
     }
 
-    public Student(int id, String firstName, String lastName, String studentMail, String department ,boolean admitted){
+    public Student(int id, String firstName, String lastName, String studentMail, departments department ,boolean admitted){
 
         this.id = id;
         this.firstName = firstName;
@@ -57,6 +61,8 @@ public class Student {
         this.studentMail = studentMail;
         this.admitted = admitted;
         setDepartment(department);
+
+        this.createNewStudent();
 
     }
 
@@ -77,10 +83,8 @@ public class Student {
         return result;
     }
 
-    private void setDepartment(String department){
-
-        this.department = new Department(department);
-
+    public void setDepartment(departments department){
+        this.department = department;
     }
 
     // Retrieving student data.
@@ -89,53 +93,28 @@ public class Student {
         return this.studentMail;
     }
 
-    public String getDepartment(){
-        return this.department.getName();
+    public departments getDepartment(){
+        return this.department;
     }
 
-    public String getAdmitted() { if(this.admitted) { return "YES"; } else { return "NO"; } }
+    public boolean getAdmitted() { return this.admitted; }
 
     public String getID() { return String.valueOf(this.id); }
 
-    public String getNames(int x){
+    public String getFirstName() {
+        return firstName;
+    }
 
-        String output = "";
-
-        switch (x){
-            case 0:
-                output = this.firstName;
-                break;
-            case 1:
-                output = this.lastName;
-                break;
-        }
-        return output;
+    public String getLastName() {
+        return lastName;
     }
 
     // Creating and retrieving Students
-
     public void createNewStudent(){
 
         try {
-
-            int department = 0;
-
-            switch (this.department.getName()){
-                case "MATH":
-                    department = 0;
-                    break;
-                case "SCIENCE":
-                    department = 1;
-                    break;
-                case "CS":
-                    department = 2;
-                    break;
-                case "LITERATURE":
-                    department = 3;
-                    break;
-            }
-
-            String source = String.format("INSERT INTO Students(firstName,lastName,studentDepartment,admitted,studentMail) VALUES ('%s','%s',%d,%s,'%s')", this.firstName, this.lastName,department, this.admitted,this.studentMail);
+            String source = String.format("INSERT INTO Students(firstName,lastName,studentDepartment,admitted,studentMail) VALUES ('%s','%s',%s,%b,'%s')",
+                    this.firstName, this.lastName,this.department.name(), this.admitted,this.studentMail);
             DatabaseDriver.newUpdate(source);
 
         } catch (Exception e){
@@ -143,9 +122,25 @@ public class Student {
         }
     }
 
-    public static Collection<Student> retrieveStudents(){
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-        Collection<Student> students = new ArrayList<Student>();
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setStudentMail(String studentMail) {
+        this.studentMail = studentMail;
+    }
+
+    public void setAdmitted(boolean admitted) {
+        this.admitted = admitted;
+    }
+
+    public static ArrayList<Student> retrieveStudents(){
+
+        ArrayList<Student> students = new ArrayList<>();
         Student student = null;
 
         String order = "SELECT * FROM Students";
@@ -156,29 +151,12 @@ public class Student {
 
             while(dataInput.next()){
 
-                String department = "";
-
-                switch (dataInput.getInt("studentDepartment")){
-                    case 0:
-                        department = "MATH";
-                        break;
-                    case 1:
-                        department = "SCIENCE";
-                        break;
-                    case 2:
-                        department = "CS";
-                        break;
-                    case 3:
-                        department = "LITERATURE";
-                        break;
-                }
-
                 student = new Student(
                         dataInput.getInt("StudentID"),
                         dataInput.getString("firstName"),
                         dataInput.getString("lastName"),
                         dataInput.getString("studentMail"),
-                        department,
+                        departments.valueOf(dataInput.getString("studentDepartment")),
                         dataInput.getBoolean("admitted")
                         );
 

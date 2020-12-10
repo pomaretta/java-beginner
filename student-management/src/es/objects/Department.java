@@ -1,11 +1,6 @@
 package es.objects;
 
-enum departments {
-    MATH,
-    SCIENCE,
-    CS,
-    LITERATURE
-}
+import java.util.ArrayList;
 
 public class Department {
 
@@ -43,6 +38,14 @@ public class Department {
 
     public String getName(){
         return this.name.toString();
+    }
+
+    public static ArrayList<departments> getDepartments(){
+        ArrayList<departments> departmentsList = new ArrayList<>();
+        for(departments department : departments.values()){
+            departmentsList.add(department);
+        }
+        return departmentsList;
     }
 
 }
